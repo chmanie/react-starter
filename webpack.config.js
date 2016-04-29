@@ -4,9 +4,9 @@ var loaders = require('./webpack.loaders');
 
 module.exports = {
 	entry: [
-		'webpack-dev-server/client?http://0.0.0.0:8080', // WebpackDevServer host and port
+		'webpack-dev-server/client?http://0.0.0.0:8090', // WebpackDevServer host and port
 		'webpack/hot/only-dev-server',
-		'./index.jsx' // Your appʼs entry point
+		'./src/index.js' // Your appʼs entry point
 	],
 	devtool: process.env.WEBPACK_DEVTOOL || 'source-map',
 	output: {
@@ -20,7 +20,7 @@ module.exports = {
 		loaders: loaders
 	},
 	devServer: {
-		contentBase: "./public",
+		contentBase: './public',
 			noInfo: true, //  --no-info option
 			hot: true,
 			inline: true
