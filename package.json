@@ -5,7 +5,8 @@
   "main": "''",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --config webpack.production.config.js --progress --profile --colors",
-    "dev": "webpack-dev-server --port 8090 --progress --profile --colors --hot"
+    "dev": "webpack-dev-server --port 8090 --progress --profile --colors --hot",
+    "test": "node_modules/.bin/karma start"
   },
   "repository": {
     "type": "git",
