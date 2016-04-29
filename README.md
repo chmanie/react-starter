@@ -14,7 +14,7 @@ Just a simple [index.jsx](./index.jsx), [webpack.config.js](./webpack.config.js)
 * Fork and clone the project:
 
 ```
-> $ git clone https://github.com/alicoding/react-webpack-babel.git
+> $ git clone https://github.com/chmanie/react-starter.git
 ```
 
 Then install the dependencies:
@@ -41,12 +41,12 @@ If you want to run with webpack-dev-server simply run this command:
 > $ npm run dev
 ```
 
+Open the web browser to `http://localhost:8090/`
+
 To run the tests:
 
 ```
 > $ npm test
 ```
-
-Open the web browser to `http://localhost:8080/`
 
 Please contribute to the project if you think this can be done better in anyway even for this README :)
